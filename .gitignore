@@ -10,6 +10,9 @@ conf/**/*credentials*
 
 # ignore everything in the following folders
 data/**
+!data/**/*.pickle
+!data/**/*.pkl
+!data/**/*.keras
 
 # except their sub-folders
 !data/**/
